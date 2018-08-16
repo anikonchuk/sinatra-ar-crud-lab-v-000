@@ -47,6 +47,6 @@ class ApplicationController < Sinatra::Base
     redirect '/posts/#{post.id}'
   end
 
-  
+
 
 end
