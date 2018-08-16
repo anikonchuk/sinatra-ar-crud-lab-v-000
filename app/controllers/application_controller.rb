@@ -22,10 +22,10 @@ class ApplicationController < Sinatra::Base
     redirect '/posts'
   end
 
-  get '/posts' do 
-    @posts = Post.all 
+  get '/posts' do
+    @posts = Post.all
 
-    erb :index 
+    erb :index
   end
 
 end
